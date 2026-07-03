@@ -1,13 +1,6 @@
 # SEO
 
-SEO Flows need real ranking/traffic data — **Search Console** (your impressions, clicks, CTR, position)
-and **Ahrefs / DataForSEO** (keywords, backlinks, competitor SERPs). Pull the data, then let Juma
-diagnose or write it up on brand. See [the method in SKILL.md](../SKILL.md). Fill `[BRACKETS]`,
-pass `projectId`, poll, deliver + save.
-
-> Every SEO Flow works best with the SEO integrations connected. If they aren't, say which to connect
-> (Search Console + Ahrefs or DataForSEO) and fall back to `web_scrape` for public SERP/competitor data,
-> labelling anything estimated.
+SEO Flows need real ranking/traffic data: **Search Console** (impressions, clicks, CTR, position) and **Ahrefs / DataForSEO** (keywords, backlinks, competitor SERPs). If they aren't connected, say which to connect and fall back to `web_scrape` for public SERP/competitor data, labelling anything estimated.
 
 ---
 
@@ -33,7 +26,7 @@ pass `projectId`, poll, deliver + save.
 
 **Prompt:** `Our client is [CLIENT NAME] ([CLIENT URL]). They have [NUMBER]+ blog posts, some published over [TIME, e.g. two years] ago. Find which ones have lost ground and tell us what needs refreshing on each one.`
 **Best with:** Search Console, Ahrefs. **You'll get:** a refresh priority list ranked by recovery potential, with the specific update each page needs.
-**Run:** `create_report({ brief, sections: ["Refresh priority list","Per-page actions"], projectId })`. Save it as the content backlog.
+**Run:** `create_report({ brief, sections: ["Refresh priority list","Per-page actions"], projectId })`. Save as the content backlog.
 
 ## Find SEO cannibalization issues
 
@@ -51,11 +44,10 @@ pass `projectId`, poll, deliver + save.
 
 **Prompt:** `Our client is [CLIENT NAME] ([CLIENT URL]). Their main competitors are [COMPETITOR 1] ([URL]) and [COMPETITOR 2] ([URL]). Find the keywords they rank for that our client doesn't.`
 **Best with:** Ahrefs, DataForSEO, Search Console. **You'll get:** the keyword-gap list, opportunity scoring by volume × difficulty, content recommendations, and a priority order by traffic potential. _(Name 2–3 competitors for best results.)_
-**Run:** `create_report({ brief, sections: ["Top opportunities","By cluster","Recommended pages"], projectId })`. Hand the top clusters to the content team.
+**Run:** `create_report({ brief, sections: ["Top opportunities","By cluster","Recommended pages"], projectId })`.
 
 ## Generate meta titles and descriptions with AI
 
 **Prompt:** `Write 3 meta title and meta description variants for [PAGE URL] targeting the query "[TARGET QUERY, e.g. project management software]". Show the live SERP-winning competitor's snippet so I can see what each variant is competing against.`
 **Best with:** Search Console, webSearch. **You'll get:** 3 title+meta variants per page, shown against the current SERP-winning snippet.
-**Run:** `write_content({ contentType: "SEO title tags & meta descriptions", brief, projectId })` (or
-`create_thread` to have Juma pull the live SERP first).
+**Run:** `write_content({ contentType: "SEO title tags & meta descriptions", brief, projectId })` (or `create_thread` to have Juma pull the live SERP first).

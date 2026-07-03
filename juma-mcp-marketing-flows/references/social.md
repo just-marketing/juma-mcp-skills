@@ -1,8 +1,6 @@
 # Social
 
-Instagram, LinkedIn, and YouTube Flows. Two sub-types: **produce** content (on brand voice, backed by
-engagement data) and **analyze** competitors/strategy. Brand voice is the whole game — always ground.
-See [the method in SKILL.md](../SKILL.md). Fill `[BRACKETS]`, pass `projectId`, poll, deliver + save.
+Instagram, LinkedIn, and YouTube Flows — two sub-types: **produce** content (backed by engagement data) and **analyze** competitors/strategy.
 
 ---
 
@@ -10,8 +8,7 @@ See [the method in SKILL.md](../SKILL.md). Fill `[BRACKETS]`, pass `projectId`, 
 
 **Prompt:** `Our client is [CLIENT NAME] ([CLIENT URL]). We need [NUMBER] Instagram posts for [PRODUCT/LINE]. Mix of carousels, single images, and reels.`
 **Best with:** Instagram, webSearch. **You'll get:** a competitive analysis table (engagement/formats/themes), publish-ready posts with captions + hashtag sets + visual direction, and carousel/reel breakdowns.
-**Run (faithful):** `create_thread({ prompt, projectId })` so Juma pulls live engagement data and
-builds the set; add visuals with `generate_image({ orientation: "square"|"vertical", projectId })`.
+**Run (faithful):** `create_thread({ prompt, projectId })` pulls live engagement data; add visuals with `generate_image({ orientation: "square"|"vertical", projectId })`.
 
 ## Plan Instagram campaigns
 
@@ -77,4 +74,4 @@ builds the set; add visuals with `generate_image({ orientation: "square"|"vertic
 
 **Prompt:** `Our client [CLIENT NAME] ([CLIENT WEBSITE URL]) is shortlisting these creators for a [CAMPAIGN, e.g. spring home decor] campaign: [@HANDLE1], [@HANDLE2], [@HANDLE3]. Vet them for engagement reality, audience signals from comments, and brand-safety risks.`
 **Best with:** Instagram, webSearch. **You'll get:** a single scorecard — one row per creator with a go/no-go flag, engagement-vs-follower reality, audience signals, brand-safety flags, and fit. _(Vet 3–5 per run.)_
-**Run:** `create_thread({ prompt, projectId })` so Juma pulls comment/engagement signals and returns the scorecard.
+**Run:** `create_thread({ prompt, projectId })` — pulls comment/engagement signals for the scorecard.

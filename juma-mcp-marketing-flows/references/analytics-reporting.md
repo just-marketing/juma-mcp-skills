@@ -1,12 +1,6 @@
 # Analytics & Reporting
 
-Data-first Flows: **pull real numbers from an integration, then hand them to Juma.** Never let the
-model estimate metrics. `analyze_data` computes + charts + explains; `create_report` produces a
-stakeholder-ready document. See [the method in SKILL.md](../SKILL.md). Fill `[BRACKETS]`, pass
-`projectId`, paste the pulled rows into the prompt/brief, poll, deliver + save.
-
-Shared move: `search_integration_tools("<capability>")` → `run_integration_tool` to fetch rows → pass
-them as `data` (inline) or `dataUrl` (large) to the tool below.
+Data-first Flows. `analyze_data` computes + charts + explains; `create_report` produces a stakeholder-ready document. Shared move: `search_integration_tools("<capability>")` → `run_integration_tool` to fetch rows → pass them as `data` (inline) or `dataUrl` (large).
 
 ---
 
@@ -50,12 +44,10 @@ them as `data` (inline) or `dataUrl` (large) to the tool below.
 
 **Prompt:** `Pull Google Ads, Meta Ads, and GA4 for [CLIENT NAME] ([CLIENT WEBSITE URL]) into a [MONTH YEAR] report.`
 **Best with:** GA4, Google Ads, Meta Ads. **You'll get:** cover KPIs, executive summary, per-platform scorecards (Google + Meta), GA4 traffic/landing detail, benchmark comparison, and a prioritized 5-item action plan.
-**Run:** the multi-source Flow — `create_thread({ prompt, projectId })` so Juma reads all three
-integrations in one pass and builds the report (add "build the slide deck" to the prompt for a deck).
-Save to the project.
+**Run:** multi-source Flow — `create_thread({ prompt, projectId })` reads all three integrations in one pass (add "build the slide deck" to the prompt for a deck).
 
 ## Run an A/B experiment in Mixpanel
 
 **Prompt:** `Set up an A/B experiment in our Mixpanel to test whether [CHANGE, e.g. a new onboarding flow] lifts [PRIMARY METRIC, e.g. activation]. Recommend the metrics and sample size, and draft it for us to review before launch.`
 **Best with:** Mixpanel. **You'll get:** the experiment design (hypothesis, primary/guardrail metrics, sample size), drafted for review before launch.
-**Run:** `search_integration_tools("mixpanel experiment")` to see available actions → `create_thread({ prompt, projectId })`; confirm before anything writes to Mixpanel.
+**Run:** `search_integration_tools("mixpanel experiment")` → `create_thread({ prompt, projectId })`; confirm before it writes to Mixpanel.
