@@ -2,16 +2,10 @@
 name: juma-mcp-marketing-flows
 display-name: Juma MCP Marketing Flows
 description: >
-  Run Juma's marketing Flows from any AI tool connected to the Juma MCP. Mirrors Juma's real Flow
-  library (juma.ai/flows): fills each Flow's input prompt, grounds it in the team's brand + knowledge,
-  pulls live data from connected integrations — GA4, Google/Meta Ads, Search Console, Ahrefs, LinkedIn,
-  Instagram, PostHog, Mixpanel, HubSpot, Notion, plus 3,000+ apps via Pipedream — and returns finished,
-  on-brand deliverables to the workspace. Covers Getting started, Strategy & Planning, Ads, Analytics &
-  Reporting, Content Creation, Content Planning, SEO, Social, and AI Search Optimization (GEO/AEO):
-  e.g. campaign brainstorms, personas & ICP, Google/LinkedIn/Facebook ads, performance & client
-  reports, funnels, landing pages, email sequences, social & Notion calendars, keyword-gap & content
-  audits, Instagram/LinkedIn/YouTube content, and creator vetting. Also runs any custom Flow and
-  prompts to connect missing integrations. Triggers on these tasks, "use Juma to…", or "/juma-mcp-marketing-flows".
+  Run Juma's marketing Flows (juma.ai/flows) from any AI tool on the Juma MCP: grounded in the team's
+  brand + knowledge and connected integrations, returning finished, on-brand deliverables. Use for ads,
+  SEO, social, analytics & reporting, content, campaigns, personas/ICP, GEO/AEO, and saved or custom
+  Flows. Triggers on marketing tasks, "use Juma to…", or "/juma-mcp-marketing-flows".
 ---
 
 # Juma MCP Marketing Flows
