@@ -6,7 +6,7 @@
 > These two building blocks are kept here because many Flows depend on them — run and **save** them
 > first, then the Ads/Content/Social/SEO Flows ground on the result.
 
-See [`playbook-pattern.md`](playbook-pattern.md). Fill `[BRACKETS]`, pass `projectId`, poll, deliver + save.
+See [the method in SKILL.md](../SKILL.md). Fill `[BRACKETS]`, pass `projectId`, poll, deliver + save.
 
 ---
 

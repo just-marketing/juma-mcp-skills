@@ -2,7 +2,7 @@
 
 SEO Flows need real ranking/traffic data — **Search Console** (your impressions, clicks, CTR, position)
 and **Ahrefs / DataForSEO** (keywords, backlinks, competitor SERPs). Pull the data, then let Juma
-diagnose or write it up on brand. See [`playbook-pattern.md`](playbook-pattern.md). Fill `[BRACKETS]`,
+diagnose or write it up on brand. See [the method in SKILL.md](../SKILL.md). Fill `[BRACKETS]`,
 pass `projectId`, poll, deliver + save.
 
 > Every SEO Flow works best with the SEO integrations connected. If they aren't, say which to connect

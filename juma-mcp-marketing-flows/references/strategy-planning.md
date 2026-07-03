@@ -2,7 +2,7 @@
 
 Higher-altitude Flows: campaigns, budgets, personas, ICP. **Personas and ICP are foundational
 artifacts** — build and save them first; the Ads, Content, Social, and AI-Search Flows all ground on
-them. See [`playbook-pattern.md`](playbook-pattern.md). Fill `[BRACKETS]`, pass `projectId`, poll,
+them. See [the method in SKILL.md](../SKILL.md). Fill `[BRACKETS]`, pass `projectId`, poll,
 deliver + save.
 
 ---

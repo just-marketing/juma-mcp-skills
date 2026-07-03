@@ -2,7 +2,7 @@
 
 Instagram, LinkedIn, and YouTube Flows. Two sub-types: **produce** content (on brand voice, backed by
 engagement data) and **analyze** competitors/strategy. Brand voice is the whole game — always ground.
-See [`playbook-pattern.md`](playbook-pattern.md). Fill `[BRACKETS]`, pass `projectId`, poll, deliver + save.
+See [the method in SKILL.md](../SKILL.md). Fill `[BRACKETS]`, pass `projectId`, poll, deliver + save.
 
 ---
 

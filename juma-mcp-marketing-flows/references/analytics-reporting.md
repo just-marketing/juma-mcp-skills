@@ -2,7 +2,7 @@
 
 Data-first Flows: **pull real numbers from an integration, then hand them to Juma.** Never let the
 model estimate metrics. `analyze_data` computes + charts + explains; `create_report` produces a
-stakeholder-ready document. See [`playbook-pattern.md`](playbook-pattern.md). Fill `[BRACKETS]`, pass
+stakeholder-ready document. See [the method in SKILL.md](../SKILL.md). Fill `[BRACKETS]`, pass
 `projectId`, paste the pulled rows into the prompt/brief, poll, deliver + save.
 
 Shared move: `search_integration_tools("<capability>")` → `run_integration_tool` to fetch rows → pass

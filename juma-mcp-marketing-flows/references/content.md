@@ -3,7 +3,7 @@
 Two Flow categories. **Content Creation** produces individual assets (pages, releases, email
 sequences); **Content Planning** organizes and repurposes content across platforms. On-brand voice +
 the team's knowledge do the heavy lifting — ground before you generate. See
-[`playbook-pattern.md`](playbook-pattern.md). Fill `[BRACKETS]`, pass `projectId`, poll, deliver + save.
+[the method in SKILL.md](../SKILL.md). Fill `[BRACKETS]`, pass `projectId`, poll, deliver + save.
 
 ---
 

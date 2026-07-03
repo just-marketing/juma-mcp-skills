@@ -2,7 +2,7 @@
 
 Ad copy and campaigns across platforms. Ground in brand voice + the offer; pull account data where an
 ad integration is connected so new copy replaces what's actually underperforming. See
-[`playbook-pattern.md`](playbook-pattern.md). Fill each `[BRACKET]`, pass `projectId`, run, deliver + save.
+[the method in SKILL.md](../SKILL.md). Fill each `[BRACKET]`, pass `projectId`, run, deliver + save.
 
 ---
 

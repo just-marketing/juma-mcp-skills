@@ -1,7 +1,7 @@
 # Getting started
 
 The onboarding Flows — the first things a new team runs. Great for standing up a workspace and proving
-value fast. See [`playbook-pattern.md`](playbook-pattern.md) for the shared steps; fill each prompt's
+value fast. See [the method in SKILL.md](../SKILL.md) for the shared steps; fill each prompt's
 `[BRACKETS]`, pass `projectId` when one exists, run, then deliver + save.
 
 ---

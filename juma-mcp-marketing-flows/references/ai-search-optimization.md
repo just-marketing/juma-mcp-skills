@@ -3,7 +3,7 @@
 Win citations in AI answers (ChatGPT, Perplexity, Google AI Overviews) and answer-engine features
 (featured snippets, People Also Ask). Juma has dedicated tools here: **`run_geo_audit`** and
 **`check_geo_visibility`**, plus the deep **`geo-audit`** skill. See
-[`playbook-pattern.md`](playbook-pattern.md). Fill `[BRACKETS]`, pass `projectId`, poll, deliver + save.
+[the method in SKILL.md](../SKILL.md). Fill `[BRACKETS]`, pass `projectId`, poll, deliver + save.
 
 ---
 
